@@ -27,29 +27,29 @@ ul{
     margin: 10px 0;
     vertical-align: top;
 }
-h1{
+.description, h1{
     text-align: center;
+}
+h1{
     color: #E53170;
     font-weight:600;
 }
+
+
 .container{
     max-width: 800px;
     margin: 0 auto;
 }
-.description{
-    text-align: center;
-}
-
 .fleft{
     float: left;
 }
 .employee{
     width: calc((90% / 3));
     height: 80px;
-    display: inline-block;
     background-color: #0F0E16;
     margin: 10px;
     font-size: 0.8em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -59,7 +59,7 @@ h1{
 }
 
 .columns{
-    margin: 5px;
+    margin: 0 auto;
 }
 li:nth-child(1){
     text-transform: uppercase;
