@@ -34,17 +34,21 @@ h1{
     color: #E53170;
     font-weight:600;
 }
+.description{
+    max-width: 780px;
+    margin: auto;
+}
 
 
 .container{
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
 }
 .fleft{
     float: left;
 }
 .employee{
-    width: calc((90% / 3));
+    width: calc((740px / 3));
     height: 80px;
     background-color: #0F0E16;
     margin: 10px;
@@ -59,7 +63,7 @@ h1{
 }
 
 .columns{
-    margin: 0 auto;
+    margin: auto;
 }
 li:nth-child(1){
     text-transform: uppercase;
